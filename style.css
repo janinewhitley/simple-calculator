@@ -121,10 +121,10 @@ button:hover {
     height: 16rem;
   }
   .previous-operand {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .current-operand {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .numbers {
     grid-template-columns: repeat(3,  10rem);
