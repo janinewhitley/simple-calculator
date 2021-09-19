@@ -107,6 +107,9 @@ button:hover {
 }
 
 @media screen and (max-device-width: 600px) {
+  body {
+    height: auto;
+  }
   button {
     font-size: 3rem;
   }
