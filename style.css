@@ -48,16 +48,14 @@ button {
   font-size: 1rem;
   line-height: 0;
   padding: 0 1.5rem;
-  max-width: 100%;
-  overflow: auto;
+  max-width: 90%;
 }
 
 .current-operand {
   font-size: 2rem;
   line-height: 0;
   padding: 0 1.5rem;
-  max-width: 100%;
-  overflow: auto;
+  max-width: 90%;
 }
 
 .buttons { 
