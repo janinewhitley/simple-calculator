@@ -46,23 +46,26 @@ button.forEach((x) =>
           parseFloat(currentOperand.innerText);
         currentOperand.innerText = result;
       }
-      if (previousOperand.innerText.includes("-")) {
+      else if (previousOperand.innerText.includes("-")) {
         let result =
           parseFloat(previousOperand.innerText) -
           parseFloat(currentOperand.innerText);
         currentOperand.innerText = result;
       }
-      if (previousOperand.innerText.includes("×")) {
+      else if (previousOperand.innerText.includes("×")) {
         let result =
           parseFloat(previousOperand.innerText) *
           parseFloat(currentOperand.innerText);
         currentOperand.innerText = result;
       }
-      if (previousOperand.innerText.includes("÷")) {
+      else if (previousOperand.innerText.includes("÷")) {
         let result =
           parseFloat(previousOperand.innerText) /
           parseFloat(currentOperand.innerText);
         currentOperand.innerText = result;
+      }
+      else {
+        currentOperand.innerHTML += previousOperand.innerHTML
       }
     } else {
           currentOperand.innerText += x.innerText;
