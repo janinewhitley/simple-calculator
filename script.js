@@ -65,9 +65,7 @@ button.forEach((x) =>
         currentOperand.innerText = result;
       }
     } else {
-        if (currentOperand.innerText.length < 20) {
           currentOperand.innerText += x.innerText;
-        }
     }
   })
 );
