@@ -103,3 +103,8 @@ button:hover {
   margin-bottom: 1rem;
   border-radius: .75rem;
 }
+
+@media and screen (max-width: 768px) {
+body {
+height: auto;
+}
