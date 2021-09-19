@@ -110,3 +110,7 @@ button:hover {
   body {
     height: 100%;
   }
+
+  .calculator {
+     width: 100%;
+}
