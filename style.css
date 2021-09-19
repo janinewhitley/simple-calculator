@@ -108,11 +108,7 @@ button:hover {
   border-radius: .75rem;
 }
 
-@media screen and (max-width: 768px) {
-  body {
-    height: 100%;
-  }
-
+@media only screen and (max-width: 768px) {
   .calculator {
     height: 64rem;
     width: 36rem;
