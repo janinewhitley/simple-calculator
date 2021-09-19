@@ -106,9 +106,36 @@ button:hover {
   border-radius: .75rem;
 }
 
-@media screen and (width: 600px) {
+@media screen and (max-device-width: 600px) {
+  button {
+    font-size: 3rem;
+  }
   .calculator {
-    height: 90%;
+    height: 80%;
     width: 75%;
   } 
+  .calculator-screen {
+    height: 16rem;
+  }
+  .previous-operand {
+    font-size: 2rem;
+  }
+  .current-operand {
+    font-size: 3rem;
+  }
+  .numbers {
+    grid-template-columns: repeat(3,  10rem);
+    grid-template-rows: repeat(3, 10.5rem);
+  }
+  .numbers > button {
+    height: 9rem;
+    width: 9rem;
+  }
+  .operands {
+    height: 95%;
+  }
+  .operands > button {
+    height: 5.9rem;
+    width: 7rem;
+  }
 }
